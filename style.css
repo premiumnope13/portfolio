@@ -1,0 +1,195 @@
+
+
+a , a:link, a:visited, a:active,a:focus{
+
+    color:#8CC3D9
+;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 40px;
+    transition-duration: .4s;
+    transition-timing-function: linear;
+    
+}
+
+p,.text{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 20px;
+    color : #F4FBF4;
+    text-align: center;
+    /* font-weight: bold; */
+
+}
+
+a:hover{
+   color: #FEFBFB   !important;
+}
+
+
+
+#navBar{
+
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+h1{
+    font-family: 'Advent Pro', sans-serif;
+    color:#FEFBFB;
+    font-weight: bold !important;
+    text-align: left;
+    margin-left: 20px;
+    margin-top :20px !important;
+    /* margin-bottom: :0px; */
+    font-size:50px !important;
+}
+
+h2,h4{
+
+    font-family: 'Advent Pro', sans-serif;
+    color:#FEFBFB;
+    font-weight: bold !important;
+    text-align: left;
+    margin-left: 40px;
+    margin-top :20px !important;
+
+}
+.col.left ,#background{
+
+    background-color:#1F545C;
+    height:100% !important;
+    /* background-attachment: fixed; */
+    /* background-size:100% 100%; */
+}
+
+.col-xl-8.right{
+
+    /* background-color:red; */
+    background-image:url('img/BG.jpg') !important;
+
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+}  
+
+html,body {
+    height: 100%;
+  }
+
+
+.line  {
+   background-color:#FEFBFB  ;
+   height: 2px;
+   width: 20px;
+  }
+
+.lineTitle  {
+    background-color:#FEFBFB ;
+    height: 2px;
+    width: 300px;
+}
+
+
+#selfPicture{
+
+    margin-top:10px;
+
+}
+#telu{
+    margin-bottom: 65px;
+    margin-top:50px !important;
+    border:white 10px solid;
+    padding: 40px 30px 30px;
+}
+
+#imageContainer{
+
+    align-content: center;
+
+}
+.container{
+    
+    align-content: center;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.carousel .item img {
+    max-height: 768px !important;
+    min-width: auto;
+
+  }
+
+#skl, #exp{
+
+margin: auto;
+margin-top :120px;
+}
+
+.php,.arduino,.bootstrap{
+    margin-top: 40px;
+
+}
+.row2{
+    /* margin-left: 400px !important   ; */
+    margin-top:30px;
+
+}
+.row{
+    margin-top: 10px;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    /* box-shadow :50px; */
+  }
+
+  
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .cpp:hover .image , .skillhtml:hover .image , .css:hover .image , .php:hover .image , .js:hover .image ,  .arduino:hover .image ,  .jquery:hover .image , .boostrap:hover .image, .json:hover .image{
+    opacity: 0.3;
+  }
+  
+  .cpp:hover .middle ,  .skillhtml:hover .middle , .css:hover .middle , .php:hover .middle , .js:hover .middle ,  .arduino:hover .middle ,  .jquery:hover .middle ,  .bootstrap:hover .middle, .json:hover .middle{
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #1F545C;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+#jobDesc{
+    font-family: inherit;
+    margin-left : 50px;
+    font-family: 'Advent Pro', sans-serif;
+    color:#FEFBFB;
+}
+
+.lineTitle.skillBar{
+
+    margin-top: 40px !important;
+    margin: auto;
+}
+
