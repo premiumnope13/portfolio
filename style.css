@@ -11,6 +11,17 @@ a , a:link, a:visited, a:active,a:focus{
     
 }
 
+a .portfolioButton{
+        color:red;
+        font-family: 'Advent Pro', sans-serif;
+        font-size: 40px;
+        transition-duration: .4s;
+        transition-timing-function: linear;
+        
+
+
+}
+
 p,.text{
     font-family: 'Advent Pro', sans-serif;
     font-size: 20px;
@@ -193,9 +204,15 @@ margin-top :120px;
     margin: auto;
 }
 
+
+
+
 .col-xl-8 .cont{
+    margin-top: 100px;
+    margin-bottom: auto;
     background-color: #8CC3D9;
-    /* border:1px blue solid; */
+    border-radius: 15px;
+    box-shadow: 10px 10px 67px 0px rgba(0, 0, 0, 0.75);
     display: flex;
     margin-left:auto;
 margin-right:auto;
