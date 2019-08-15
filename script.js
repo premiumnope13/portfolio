@@ -3,7 +3,9 @@ $("#edu").hide();
 $("#prf").hide();
 $("#skl").hide();
 $("#exp").hide();
+$("#hby").hide();
 $("#cnt").hide();
+
 
 $(document).ready(function(){
 $("#profile").click(function(){
@@ -14,8 +16,9 @@ $("#profile").click(function(){
      $("#skl").hide();
      $("#exp").hide();
      $("#cnt").hide();
+     $("#hby").hide();
     $("#prf").show(10000);
-
+    
 
   });
 
@@ -25,6 +28,7 @@ $("#education").click(function(){
     $("#skl").hide();
     $("#exp").hide();
     $("#cnt").hide();
+    $("#hby").hide();
   });
 
   $("#skill").click(function(){
@@ -33,6 +37,7 @@ $("#education").click(function(){
     $("#skl").show();
     $("#exp").hide();
     $("#cnt").hide();
+    $("#hby").hide();
   });
 
   $("#experience").click(function(){
@@ -41,6 +46,7 @@ $("#education").click(function(){
     $("#skl").hide();
     $("#exp").show();
     $("#cnt").hide();
+    $("#hby").hide();
   });
 
   $("#contact").click(function(){
@@ -48,6 +54,16 @@ $("#education").click(function(){
     $("#edu").hide();
     $("#skl").hide();
     $("#exp").hide();
+    $("#hby").hide();
     $("#cnt").toggle(1500);
+  });
+
+  $("#hobbies").click(function(){
+    $("#prf").hide();
+    $("#edu").hide();
+    $("#skl").hide();
+    $("#exp").hide();
+    $("#hby").show();
+    $("#cnt").hide();
   });
 });

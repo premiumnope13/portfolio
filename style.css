@@ -193,3 +193,21 @@ margin-top :120px;
     margin: auto;
 }
 
+.col-xl-8 .cont{
+    background-color: #8CC3D9;
+    /* border:1px blue solid; */
+    display: flex;
+    margin-left:auto;
+margin-right:auto;
+    justify-content: center;
+
+
+}
+.col-xl-8 .cont:hover{
+    background-color: #1F545C;
+    /* border:1px blue solid; */
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    transition-duration: .4s;
+}
